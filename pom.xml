@@ -14,6 +14,8 @@
         <module>spring3</module>
         <module>spring4</module>
         <module>spring5</module>
+        <module>spring6</module>
+        <module>spring7</module>
     </modules>
 
     <properties>
@@ -35,5 +37,13 @@
             <version>4.13</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.6</version>
+        </dependency>
+
     </dependencies>
 </project>
